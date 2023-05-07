@@ -1,0 +1,34 @@
+<template>
+    <MainComponent/>
+
+    <h1>Hello World</h1>
+</template>
+
+<script>
+    import './Donate.css'
+    import MainComponent from '../../components/Main/Main'
+
+    export default{
+        name: 'DonatePage',
+        data(){
+            return {
+                choose: null,
+                name: ''
+            }
+        },
+        components: {
+            MainComponent
+        },
+        methods: {
+            test (){
+                if(this.choose === null){
+                    alert("Arichiet Samizne")
+                } else{
+                    console.log(this.choose)
+                }
+            }
+        }
+    }
+</script>
+
+<style></style>

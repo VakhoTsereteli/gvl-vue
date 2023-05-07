@@ -1,0 +1,44 @@
+@import url(../../assets/fonts/fonts.css);
+
+.LauncherButton{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.LauncherButton button{
+    width: 250px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    color: #0a0a15;
+    text-shadow: 0 0 20px var(--activeColor);
+    background-color: var(--activeColor);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.LauncherButton button:hover{
+    background-color: #0a0a15;
+    color: var(--activeColor);
+}
+
+.LauncherButton .icon{
+    font-size: 24px;
+}
+
+#promo_btn{
+    color: white;
+    background-color: #0a0a15;
+    text-shadow: none;
+}
+
+#promo_btn:hover{
+    background-color: #19192c;
+}
